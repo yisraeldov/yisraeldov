@@ -1,11 +1,6 @@
 <p align="right" dir="rtl" lang="he"><strong>בס'ד</strong></p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-card.svg">
-  <img src="./profile-card.svg" alt="Yisrael Dov Lebow - technical leadership and software consulting. Main code home: GitLab." width="100%">
-</picture>
-
-## My Main Code Home Is GitLab
+## My Main Code Home Is 🦊 GitLab
 
 Most of my active development, project history, and current work is on GitLab.
 
