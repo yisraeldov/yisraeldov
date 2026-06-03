@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Yisrael Dov Lebow profile card</title>
+  <desc id="desc">Technical leadership and software consulting. Most active development is on GitLab.</desc>
+  <style>
+    :root {
+      --background: #efefef;
+      --paper: #ffffff;
+      --ink: #4d4d4c;
+      --muted: #8e908c;
+      --line: #d6d6d6;
+      --accent: #4271ae;
+      --accent-strong: #8959a8;
+      --accent-warm: #c82829;
+      --shadow: rgba(77, 77, 76, 0.14);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #2d2d2d;
+        --paper: #393939;
+        --ink: #cccccc;
+        --muted: #999999;
+        --line: #515151;
+        --accent: #6699cc;
+        --accent-strong: #cc99cc;
+        --accent-warm: #f2777a;
+        --shadow: rgba(0, 0, 0, 0.32);
+      }
+    }
+
+    .label {
+      fill: var(--accent-warm);
+      font: 800 19px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 3.2px;
+      text-transform: uppercase;
+    }
+
+    .name {
+      fill: var(--ink);
+      font: 800 82px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: -6px;
+    }
+
+    .body {
+      fill: var(--muted);
+      font: 500 28px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .section-title {
+      fill: var(--ink);
+      font: 800 30px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: -1.2px;
+    }
+
+    .link {
+      fill: var(--accent);
+      font: 800 32px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .bsd {
+      fill: var(--muted);
+      font: 800 22px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+  </style>
+
+  <rect width="1200" height="560" fill="var(--background)" />
+  <text x="1134" y="48" text-anchor="end" class="bsd">בס'ד</text>
+
+  <rect x="84" y="74" width="1000" height="392" fill="var(--shadow)" />
+  <rect x="68" y="58" width="1000" height="392" fill="var(--paper)" stroke="var(--line)" stroke-width="2" />
+
+  <circle cx="178" cy="180" r="82" fill="#ffffff" stroke="var(--line)" stroke-width="2" />
+  <rect x="141" y="120" width="74" height="110" rx="10" fill="none" stroke="var(--accent)" stroke-width="8" />
+  <text x="178" y="181" text-anchor="middle" fill="var(--ink)" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="700" letter-spacing="-3">YD</text>
+  <path d="M150 214h56" stroke="var(--accent-warm)" stroke-width="8" stroke-linecap="square" />
+
+  <text x="300" y="132" class="label">Technical leadership · Software consulting</text>
+  <text x="300" y="218" class="name">Yisrael Dov</text>
+  <text x="300" y="298" class="name">Lebow</text>
+
+  <text x="300" y="354" class="body">Full-stack systems, CI/CD, Nix/Linux, engineering process,</text>
+  <text x="300" y="390" class="body">and practical AI-assisted software delivery.</text>
+
+  <line x1="108" y1="498" x2="1048" y2="498" stroke="var(--line)" stroke-width="2" />
+  <text x="108" y="535" class="section-title">Main code home</text>
+  <text x="408" y="535" class="link">gitlab.com/yisraeldov</text>
+  <path d="M386 526h-98" stroke="var(--accent-warm)" stroke-width="5" stroke-linecap="square" />
+</svg>
